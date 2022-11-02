@@ -5,3 +5,27 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(purple, red, tomato);
+}
+.warpper {
+    width: 450px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(45, 243, 55);
+}
+.warpper .upload-box {
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px dashed #afafaf;
+    border-radius: 5px;
+    margin: 10px;
+}
